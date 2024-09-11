@@ -261,7 +261,7 @@ const CalendarComponent: React.FC = () => {
                     onSelectEvent={handleSelectEvent}
                     views={['month', 'week', 'day', 'agenda']}
                     date={currentDate}
-                    view={currentView}
+                    // view={currentView}
                     onNavigate={handleNavigate}
                 />
             </div>
