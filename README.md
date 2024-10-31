@@ -4,7 +4,7 @@
 <img width="1400" alt="ホーム画面" src="">
 
 ## URL
-https:// <br >
+https://mediguide-pi.vercel.app/ <br >
 
 ## サービスの概要
 
