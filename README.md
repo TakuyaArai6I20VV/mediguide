@@ -1,7 +1,8 @@
 # MediGuide
 面倒な病院の検索-服薬通知-検診予定を一括管理するWebアプリ
 <br >
-<img width="1400" alt="ホーム画面" src="">
+[ホーム画面]
+<img width="1400" alt="ホーム画面" src="https://github.com/user-attachments/assets/39d206e7-98f7-4775-b037-0f6ea826238f">
 
 ## URL
 https://mediguide-pi.vercel.app/ <br >
