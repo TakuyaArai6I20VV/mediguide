@@ -12,7 +12,11 @@ https://mediguide-pi.vercel.app/ <br >
 ## サービスを開発した背景
 
 ## 画面や機能の説明
-- 
+[ログイン]
+[ホーム画面]
+[病院検索]
+[カレンダー]
+[服薬]
 ## 使用技術
 - TypeScript
 - Next.js
