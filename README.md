@@ -1,7 +1,7 @@
 # MediGuide
 面倒な病院の検索-服薬通知-検診予定を一括管理するWebアプリ
 
-<img width="1400" alt="ホーム画面" src="https://github.com/user-attachments/assets/39d206e7-98f7-4775-b037-0f6ea826238f">
+<img width="1400" alt="ホーム画面" src="https://github.com/user-attachments/assets/bb037427-f0e8-4e38-8eda-76f4b6d133b9">
 
 ## URL
 https://mediguide-pi.vercel.app/ <br >
@@ -17,7 +17,7 @@ MediGuideはこれらを一つにまとめ、ユーザーが簡単に健康を�
 
 ## 画面と機能
 **[ホーム画面]**
-<img width="1400" alt="ホーム画面" src="https://github.com/user-attachments/assets/39d206e7-98f7-4775-b037-0f6ea826238f">
+<img width="1400" alt="ホーム画面" src="https://github.com/user-attachments/assets/bb037427-f0e8-4e38-8eda-76f4b6d133b9">
 
 **[ログイン画面]**
 <img width="1400" alt="ログイン画面" src="">
@@ -27,11 +27,11 @@ Firebase Authenticationを使用して、Googleでのログインをサポート
 <img width="1400" alt="病院検索画面" src="">
 
 **[検診カレンダー画面]**
-<img width="1400" alt="検診カレンダー画面" src="">
+<img width="1400" alt="検診カレンダー画面" src="https://github.com/user-attachments/assets/0aa6210b-6e56-4041-b344-33b42c5e31c6">
 過去の検診記録や今後の予定をカレンダー形式で管理。
 
 **[服薬通知画面]**
-<img width="1400" alt="服薬通知画面" src="">
+<img width="1400" alt="服薬通知画面" src="https://github.com/user-attachments/assets/e14452c3-278f-48c0-9661-0854aa8c2bca">
   - **登録機能**:  
     ユーザーは以下の情報を登録できます:  
       - 薬の名前（例: 解熱剤、抗生物質など）  
