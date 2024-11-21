@@ -5,6 +5,8 @@ import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from '@/components/firebase';
+import { useEffect } from 'react';
+import { useRouter } from "next/navigation";
 
 const font = Figtree({ subsets: ["latin"] });
 
@@ -13,13 +15,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const [user] = useAuthState(auth);
+  const [user, loading, error] = useAuthState(auth);
+  const router = useRouter();
 
-  // metadataの処理はRootLayout内部で行う
   const metadata = {
     title: "MediGuide",
     description: "",
   };
+
+  // ログインしていない場合、または読み込み中の場合にリダイレクト
+  useEffect(() => {
+    if (!loading && !user) {
+      // ログインしていない場合、ホームにリダイレクト
+      router.push('/');
+    }
+  }, [loading, user, router]);
 
   return (
     <html lang="ja">
