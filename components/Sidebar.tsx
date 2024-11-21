@@ -17,7 +17,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className='Sidebar'>
+    <div className='Sidebar fixed'>
         <SidebarIcon />
         <ul className='SidebarList'>
             {SidebarData.map((value, key) => {
