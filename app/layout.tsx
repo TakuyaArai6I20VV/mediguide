@@ -41,7 +41,7 @@ export default function RootLayout({
       </head>
       <body className="flex min-h-screen">
         {user && <Sidebar />}
-        <div className="flex-grow MainContent">{children}</div>
+        <div className={`flex-grow ${user && 'MainContent'}`}>{children}</div>
       </body>
     </html>
   );
