@@ -47,14 +47,14 @@ const Login = () => {
                                         </div>
                                     </div>
                                     <div className='flex'>
-                                        {TutorialData.map((value, key) =>{
+                                        {TutorialData.map((value, key) => {
                                             return(
-                                                <div key ={key} className='border-2'>
+                                                <div key={key} className='border-2'>
                                                     <div className='font-bold px-14 text-lg'>
                                                         {value.description}
                                                     </div>
                                                     <div className='flex justify-center pt-10'>
-                                                        <Image src = {value.img} width = "100" height="100" alt=""/>
+                                                        <Image src={value.img} width="100" height="100" alt={value.alt}/>
                                                     </div>
                                                 </div>
                                             )

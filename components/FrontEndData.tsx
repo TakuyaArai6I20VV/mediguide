@@ -31,13 +31,16 @@ export const TutorialData = [
     {
         description: "GoogleMapのAPIを用いた病院検索",
         img: "/Image/googlemapIcon.png",
+        alt: "グーグルマップAPIアイコン",
     },
     {
         description: "診察のスケジュールチェック",
         img: "/Image/calendarIcon.png",
+        alt: "カレンダーアイコン",
     },
     {
         description: "服薬のお知らせ",
         img: "/Image/medicineIcon.png",
+        alt: "薬アイコン",
     }
 ]
