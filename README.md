@@ -57,7 +57,7 @@ Firebase Authenticationを使用して、Googleでのログインをサポート
 
 
 ## 資料
-https://docs.google.com/presentation/d/1RGL2WRrBlI7_w5I2btxdqFBUnVSjYQuFP5Sw6Vu0DXY/edit#slide=id.g2d0400b65d7_3_293
+https://docs.google.com/presentation/d/1RGL2WRrBlI7_w5I2btxdqFBUnVSjYQuFP5Sw6Vu0DXY/edit?usp=sharing
 
 
 お気軽にフィードバックや機能リクエストをお寄せください！ 😊
