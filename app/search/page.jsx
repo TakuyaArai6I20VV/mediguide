@@ -133,7 +133,6 @@ function displaySearchResults(results) {
 
   return (
     <div className='flex'>
-        <Sidebar />
         <div className="main w-full">
             <div className='font-bold pr-20'>
                 現在の状態を教えてください
@@ -150,7 +149,6 @@ function displaySearchResults(results) {
             </div>
             {displaySearchResults(searchResults)}
         </div>
-
     </div>
   );
 }

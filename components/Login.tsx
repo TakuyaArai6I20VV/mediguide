@@ -25,10 +25,7 @@ const Login = () => {
     return (
         <div>
             {user ? (
-                <div className='flex'>
-                    <div className='Sidebar'>
-                        <Sidebar />
-                    </div>
+                <div>
                     <div className = 'w-full h-full'>
                             <main className='grow'>
                                 <section className='container mx-auto'>
@@ -47,14 +44,14 @@ const Login = () => {
                                         </div>
                                     </div>
                                     <div className='flex'>
-                                        {TutorialData.map((value, key) =>{
+                                        {TutorialData.map((value, key) => {
                                             return(
-                                                <div key ={key} className='border-2'>
-                                                    <div className='font-bold px-14 text-lg'>
+                                                <div key={key} className='border-2 flex flex-col items-center p-4 m-2 w-full md:w-1/2 lg:w-1/3'>
+                                                    <div className='font-bold text-lg text-center'>
                                                         {value.description}
                                                     </div>
-                                                    <div className='flex justify-center pt-10'>
-                                                        <Image src = {value.img} width = "100" height="100" alt=""/>
+                                                    <div className='flex justify-center pt-4'>
+                                                        <Image src={String(value.img)} width="100" height="100" alt={value.alt}/>
                                                     </div>
                                                 </div>
                                             )
@@ -78,7 +75,7 @@ function SignInButton() {
         signInWithPopup(auth, provider);
     }
     return (
-        <div className='min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-purple-600'>
+        <div className='z-20 min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-purple-600'>
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 max-w-md w-full p-8 bg-blue-100 bg-opacity-75 rounded-lg shadow-lg">
                 <h2 className="font-semibold text-6xl text-center py-1.5 mb-4 text-white">
