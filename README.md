@@ -20,11 +20,11 @@ MediGuideはこれらを一つにまとめ、ユーザーが簡単に健康を�
 <img width="1400" alt="ホーム画面" src="https://github.com/user-attachments/assets/bb037427-f0e8-4e38-8eda-76f4b6d133b9">
 
 **[ログイン画面]**
-<img width="1400" alt="ログイン画面" src="">
+<img width="1400" alt="ログイン画面" src="https://github.com/user-attachments/assets/01d4d01e-0185-4fa5-8742-2b73f9214b60">
 Firebase Authenticationを使用して、Googleでのログインをサポート。
 
 **[病院検索画面]**
-<img width="1400" alt="病院検索画面" src="">
+<img width="1400" alt="病院検索画面" src="https://github.com/user-attachments/assets/575b045b-c2bc-406a-b0f8-01034fd427eb">
 
 **[検診カレンダー画面]**
 <img width="1400" alt="検診カレンダー画面" src="https://github.com/user-attachments/assets/0aa6210b-6e56-4041-b344-33b42c5e31c6">
